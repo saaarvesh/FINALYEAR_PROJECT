@@ -1,0 +1,16 @@
+1)We had first started by making an abstract of our project
+in which we have given the brief view about the idea behind the 
+project and then started with the documentation.
+
+2)As many real world problems has been solved through different
+advancement in technologies so selecting an effective definition
+which can bring comfort and easiness in people's lives was the
+main challenge at first.
+
+3)We discussed with our friends and relatives about the project
+and after knowing the problems faced by all, we asked our internal
+guide for help in documentation.
+
+4)We referred some software engineering books for the 
+Software Development Life Cycle through which we studied 
+about how to make documentation. 
