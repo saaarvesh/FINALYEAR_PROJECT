@@ -1,0 +1,15 @@
+1)After requirement gathering we have completed feasibility study 
+in which we covered Technical feasiblity,Economic Study and
+made the timeline chart.Then we made system diagrams
+such as Use Case, Activity Diagram, Sequence Diagram, 
+Class Diagram , ER diagram. Also made the data dictionary.
+
+2)Being familiar with software named Microsoft VISIO for
+system diagrams,as we have made all the diagrams in it.
+
+3)Took help from internal guides and internet.
+
+4)Refered few projects' report to get an idea for making 
+the system architecture, selecting system model, making diagrams
+required for our application.
+   

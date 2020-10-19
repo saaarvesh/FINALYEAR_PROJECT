@@ -1,0 +1,14 @@
+1)We have done the requirement gathering after the documentation 
+in which we have decided the Software Requirements and Hardware
+Requirements. Also compeleted with the functional and
+non-functional requirements.
+
+2)To decide which technologies or softwares to be used for 
+implementation of the project we had to compare different 
+softwares so that we can choose the best and useful of all for project.
+
+3)We discussed amongst ourselves and also read some articles 
+on Quora, Medium,etc and also got some suggestions from our internal guide.
+
+4)As mentioned earlier we took help of internet and other sources 
+such as articles for the requirement gathering phase.
