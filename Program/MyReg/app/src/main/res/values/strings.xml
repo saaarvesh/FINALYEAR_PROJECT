@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyReg</string>
+    <string-array name="cities">
+        <item>Vadodara</item>
+        <item>Rajkot</item>
+        <item>Anand</item>
+        <item>Surat</item>
+        <item>Bharuch</item>
+    </string-array>
+</resources>
