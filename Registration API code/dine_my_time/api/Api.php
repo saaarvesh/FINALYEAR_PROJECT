@@ -27,17 +27,17 @@ require_once '../includes/DbOperation.php';
 	if(isset($_GET['apicall'])) {
 		switch ($_GET['apicall']) {
 			case 'register':
-				isTheseParametersAvailable(array('cust_name', 'cust_email', 'cust_password', 'cust_contact', 'cust_address', 'registration_time'));
+				isTheseParametersAvailable(array('cust_id','cust_name', 'cust_email', 'cust_password', 'cust_contact', 'cust_address'));
 				$db = new DbOperation();
 
 				$result = $db->cust_insert(
-					
+					$_POST['cust_id'],
 					$_POST['cust_name'],
 					$_POST['cust_email'],
 					$_POST['cust_password'],
 					$_POST['cust_contact'],
-					$_POST['cust_address'],
-					$_POST['registration_time']
+					$_POST['cust_address']
+					// $_POST['registration_time']
 				);
 
 				if($result){
@@ -47,10 +47,10 @@ require_once '../includes/DbOperation.php';
 					$response['error'] = true;
 					$response['message'] = 'Already Registered';	
 				}
+				echo json_encode($response);
 				break;
-			
 			case 'login':
-				isTheseParametersAvailable(array('cust_name', 'cust_email', 'cust_password', 'cust_contact', 'cust_address'));
+				isTheseParametersAvailable(array('cust_email', 'cust_password'));
 				$db = new DbOperation();
 				$result = $db->Login($_POST['cust_email'], $_POST['cust_password']);
 
@@ -62,6 +62,7 @@ require_once '../includes/DbOperation.php';
 					$response['error'] = true;
 					$response['message'] = 'Email or password is invalid';
 				}
+				echo json_encode($response);
 				break;
 			default:
 				# code...
